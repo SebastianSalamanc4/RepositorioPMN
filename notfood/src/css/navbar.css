@@ -1,0 +1,71 @@
+.navbar {
+  position: absolute; /* La navbar se mantiene fija en la parte superior */
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+  backdrop-filter: blur(5px); /* Efecto glass */
+}
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
+  
+  .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .nav-links ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .reserve-button {
+    background: #facc15; /* amarillo suave */
+    color: black;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .reserve-button:hover {
+    background: #eab308;
+  }
+  
+  .main-content {
+    margin-top: 80px; /* Aquí defines el espacio que debe tener el contenido, igual o mayor que la altura de la navbar */
+  }
+  /* Estilos para el logo */
+.logo img {
+  width: 70px; /* Tamaño del logo */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 5px; /* Bordes redondeados opcionales */
+  opacity: 0.9; /* Ajusta la transparencia */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Transición suave para efectos */
+}
+
+/* Efecto hover */
+.logo img:hover {
+  transform: scale(1.1); /* Amplía el logo al pasar el ratón */
+  opacity: 1; /* Hace que el logo sea completamente opaco al pasar el ratón */
+}
