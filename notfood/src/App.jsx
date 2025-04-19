@@ -8,6 +8,8 @@ import Carta from "./componentes/Carta"
 import Localizacion from "./componentes/Localizacion"
 import Historia from "./componentes/Historia"
 import Reserva from "./componentes/Reserva"
+import Register from './componentes/Register';
+
 const App = () => {
   return (
     <div className="app">
@@ -18,6 +20,7 @@ const App = () => {
         <Route path="/Localizacion" element ={<Localizacion/>} />
         <Route path ="/Historia" element ={<Historia/>} />
         <Route path ="/Reserva" element ={<Reserva/>} />
+        <Route path ="/Register" element ={<Register/>} />
        </Routes>
     </div>
   );
