@@ -9,6 +9,7 @@ import Localizacion from "./componentes/Localizacion"
 import Historia from "./componentes/Historia"
 import Reserva from "./componentes/Reserva"
 import Register from './componentes/Register';
+import Login from "./componentes/Login"
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
         <Route path ="/Historia" element ={<Historia/>} />
         <Route path ="/Reserva" element ={<Reserva/>} />
         <Route path ="/Register" element ={<Register/>} />
+
+        <Route path ="/Login" element ={<Login/>} />
        </Routes>
     </div>
   );
