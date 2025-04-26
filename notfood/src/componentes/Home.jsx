@@ -16,8 +16,9 @@ const Home = () => {
         <h1 className="title">404 HUNGER NOT FOUND</h1>
 
         <div className="button-group">  
+          <Link to ="/VerCarta">
             <button className="vercarta">VER CARTA</button>
-
+            </Link>
           <Link to ="/Reserva">
           <button className="reservaboton">RESERVAR MESA</button>
           </Link>

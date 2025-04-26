@@ -17,15 +17,12 @@ const Navbar = () => {
         <ul>
           <li><Link to="/">HOME</Link></li>
           <li><Link to="/Historia">HISTORIA</Link></li>
-          <li><Link to="/VerCarta">VER CARTA</Link></li>
           <li><Link to="/Localizacion">LOCALIZACION</Link></li>
           <li><Link to="/Register">REGISTER</Link></li>
           <li><Link to="/Login">LOGIN</Link> </li>
         </ul>
 
-        <Link to="/reserva">
-          <button className="reserve-button">RESERVAR</button>
-        </Link>
+
       </nav>
     </header>
   );
