@@ -10,9 +10,9 @@ const SEPARACION_BLOQUE = 0.5; // 30 minutos
 
 // Datos de las mesas
 const mesas = [
-  { id: 1, top: 500, left: 255 },
-  { id: 2, top: 345, left: 485 },
-  { id: 3, top: 345, left: 255 },
+  { id: 1, top: 600, left: 250 },
+  { id: 2, top: 450, left: 485 },
+  { id: 3, top: 450, left: 255 },
 ];
 
 // Función para generar bloques de horarios automáticamente
