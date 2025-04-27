@@ -3,7 +3,7 @@ import '../css/VerCarta.css';
 
 const VerCarta = () => {
   const handleOpenCarta = () => {
-    window.open('/nuestra_carta.pdf', '_blank');
+    window.open('/MenuDePrueba.pdf', '_blank');
   };
 
   return (
